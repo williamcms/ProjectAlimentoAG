@@ -1,0 +1,76 @@
+[20-Jul-2020 19:06:17 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[20-Jul-2020 19:06:17 America/Fortaleza] PHP Warning:  require(../PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home1/alime009/public_html/index.php on line 7
+[20-Jul-2020 19:06:17 America/Fortaleza] PHP Warning:  require(../PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home1/alime009/public_html/index.php on line 7
+[20-Jul-2020 19:06:17 America/Fortaleza] PHP Fatal error:  require(): Failed opening required '../PHPMailer/src/Exception.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home1/alime009/public_html/index.php on line 7
+[20-Jul-2020 19:06:33 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[20-Jul-2020 19:06:33 America/Fortaleza] PHP Warning:  require(../PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home1/alime009/public_html/index.php on line 7
+[20-Jul-2020 19:06:33 America/Fortaleza] PHP Warning:  require(../PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home1/alime009/public_html/index.php on line 7
+[20-Jul-2020 19:06:33 America/Fortaleza] PHP Fatal error:  require(): Failed opening required '../PHPMailer/src/Exception.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home1/alime009/public_html/index.php on line 7
+[20-Jul-2020 19:09:01 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[20-Jul-2020 19:09:15 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[20-Jul-2020 19:09:15 America/Fortaleza] PHP Warning:  require(../PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home1/alime009/public_html/index2.php on line 7
+[20-Jul-2020 19:09:15 America/Fortaleza] PHP Warning:  require(../PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home1/alime009/public_html/index2.php on line 7
+[20-Jul-2020 19:09:15 America/Fortaleza] PHP Fatal error:  require(): Failed opening required '../PHPMailer/src/Exception.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home1/alime009/public_html/index2.php on line 7
+[20-Jul-2020 19:12:32 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[20-Jul-2020 19:12:32 America/Fortaleza] PHP Warning:  require(../PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home1/alime009/public_html/index2.php on line 7
+[20-Jul-2020 19:12:32 America/Fortaleza] PHP Warning:  require(../PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home1/alime009/public_html/index2.php on line 7
+[20-Jul-2020 19:12:32 America/Fortaleza] PHP Fatal error:  require(): Failed opening required '../PHPMailer/src/Exception.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home1/alime009/public_html/index2.php on line 7
+[20-Jul-2020 19:13:59 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[20-Jul-2020 21:07:46 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home1/alime009/public_html/cfg/users_class.php:157
+Stack trace:
+#0 /home1/alime009/public_html/cpainel.php(5): _account->sessionLogin()
+#1 {main}
+  thrown in /home1/alime009/public_html/cfg/users_class.php on line 157
+[20-Jul-2020 21:08:17 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home1/alime009/public_html/cfg/users_class.php:157
+Stack trace:
+#0 /home1/alime009/public_html/cpainel.php(5): _account->sessionLogin()
+#1 {main}
+  thrown in /home1/alime009/public_html/cfg/users_class.php on line 157
+[20-Jul-2020 21:08:45 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home1/alime009/public_html/cfg/users_class.php:157
+Stack trace:
+#0 /home1/alime009/public_html/cpainel.php(5): _account->sessionLogin()
+#1 {main}
+  thrown in /home1/alime009/public_html/cfg/users_class.php on line 157
+[20-Jul-2020 21:25:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_result() in /home1/alime009/public_html/cfg/users_class.php:158
+Stack trace:
+#0 /home1/alime009/public_html/cpainel.php(5): _account->sessionLogin()
+#1 {main}
+  thrown in /home1/alime009/public_html/cfg/users_class.php on line 158
+[20-Jul-2020 21:25:09 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_result() in /home1/alime009/public_html/cfg/users_class.php:158
+Stack trace:
+#0 /home1/alime009/public_html/cpainel.php(5): _account->sessionLogin()
+#1 {main}
+  thrown in /home1/alime009/public_html/cfg/users_class.php on line 158
+[20-Jul-2020 21:25:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_result() in /home1/alime009/public_html/cfg/users_class.php:158
+Stack trace:
+#0 /home1/alime009/public_html/cpainel.php(5): _account->sessionLogin()
+#1 {main}
+  thrown in /home1/alime009/public_html/cfg/users_class.php on line 158
+[20-Jul-2020 21:25:34 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_result() in /home1/alime009/public_html/cfg/users_class.php:158
+Stack trace:
+#0 /home1/alime009/public_html/cpainel.php(5): _account->sessionLogin()
+#1 {main}
+  thrown in /home1/alime009/public_html/cfg/users_class.php on line 158
+[20-Jul-2020 21:27:53 America/Fortaleza] PHP Parse error:  syntax error, unexpected '}' in /home1/alime009/public_html/cfg/users_class.php on line 161
+[20-Jul-2020 21:28:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_result() in /home1/alime009/public_html/cfg/users_class.php:158
+Stack trace:
+#0 /home1/alime009/public_html/cpainel.php(5): _account->sessionLogin()
+#1 {main}
+  thrown in /home1/alime009/public_html/cfg/users_class.php on line 158
+[20-Jul-2020 21:38:29 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_result() in /home1/alime009/public_html/cfg/users_class.php:174
+Stack trace:
+#0 /home1/alime009/public_html/cpainel.php(5): _account->sessionLogin()
+#1 {main}
+  thrown in /home1/alime009/public_html/cfg/users_class.php on line 174
+[20-Jul-2020 21:38:33 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_result() in /home1/alime009/public_html/cfg/users_class.php:174
+Stack trace:
+#0 /home1/alime009/public_html/cpainel.php(5): _account->sessionLogin()
+#1 {main}
+  thrown in /home1/alime009/public_html/cfg/users_class.php on line 174
+[31-Aug-2020 18:04:51] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home1/alime009/public_html/index.php on line 4
+[31-Aug-2020 18:04:57] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home1/alime009/public_html/index.php on line 4
+[31-Aug-2020 18:05:12] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home1/alime009/public_html/index.php on line 4
+[31-Aug-2020 18:05:14] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home1/alime009/public_html/index.php on line 4
+[31-Aug-2020 18:06:12] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home1/alime009/public_html/__index.php on line 4
+[31-Aug-2020 18:06:49] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home1/alime009/public_html/cfg/core.php on line 75
+[31-Aug-2020 18:09:05] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home1/alime009/public_html/__index.php on line 4

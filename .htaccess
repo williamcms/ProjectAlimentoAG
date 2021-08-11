@@ -1,0 +1,22 @@
+#Define a página inicial
+DirectoryIndex index.php index.html
+ErrorDocument 404 /404.php
+
+Options +FollowSymLinks -MultiViews
+RewriteEngine On
+
+#Força o uso do ssl (desativado para testes locais, habilitar apenas na hostgator)
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^(.*)/$ /$1 [L,R]
+
+#Permite o uso das páginas sem a extensão
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+#Força a versão do PHP (desativado para testes locais, habilitar apenas na hostgator)
+#<IfModule mime_module>
+#	AddHandler application/x-httpd-ea-php73 .php .php7 .phtml
+#</IfModule>
